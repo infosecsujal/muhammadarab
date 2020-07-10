@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+	<title>Muhammad Arab 2.0</title>
+
+	<!--Logo-->
+	<link rel="icon" href="img/icon.png" type="image/x-icon">
+
+	<!--Meta Tags-->
+	<meta charset="utf-8">
+	<meta name="Keywords" content="resume, Arab, Muhammad, Muhammad Arab, Arab Muhammad, Web Designer, Web Developer">
+	<meta name="Description" content="Profile, Abilities, Career, Projects, Contact Form">
+	<meta name="robots" content="index,follow">
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta name="google-site-verification" content="5f3o6j4RYbYl-kBYCy-KonjmQmoEHV_WnOH9seqLwW8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!--Normalize CSS-->
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+
+	<!--Main CSS-->
+	<link rel="stylesheet" type="text/css" href="main.css">
+
+	<!--Google Fonts-->
+	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Kalam&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+
+	<!--Symbols-->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+	<!--jQuery-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+
+	<!--Javascript-->
+	<script type="text/javascript">
+		
+		function myFunction() 
+		{
+			var x = document.getElementById("mob-nav");
+			if (x.style.display === "none")
+			{
+				x.style.display = "block";
+			}
+			else
+			{
+				x.style.display = "none";
+			}
+		}
+
+		function myFunction2() 
+		{
+			var x = document.getElementById("mob-nav2");
+			if (x.style.display === "none")
+			{
+				x.style.display = "block";
+			}
+			else
+			{
+				x.style.display = "none";
+			}
+		}
+
+		function sorry()
+		{
+			alert("Sorry! I am not on youtube yet...");
+		}
+
+		// Wait for window load
+		$(window).load(function() 
+		{
+			// Animate loader off screen
+			
+			$(".se-pre-con").delay(10000).show().fadeOut("easy");;
+		});
+
+		// Webhost Watermark Remover
+		window.onload = () =>
+		{
+            let bannerNode = document.querySelector('[alt="www.000webhost.com"]').parentNode.parentNode;
+            bannerNode.parentNode.removeChild(bannerNode);
+        }
+
+	</script>
+
+</head>
+
+<body>
+
+	<!--Preloader-->
+	<div class="se-pre-con"></div>
+
+	<!--Mobile Navigation Menu-->
+	<div class="dropdown">
+
+		<button class="dropbtn" onclick="myFunction()" style="left: 0.3em;">Navigation</button>
+
+		<div class="dropdown-content" id="mob-nav" style="left: 1em;">
+			
+			<ul>
+				
+				<li><a href="#top">Home</a></li>
+				<li><a href="#profile">Profile</a></li>
+				<li><a href="#abilities">Abilities</a></li>
+				<li><a href="#career">Career</a></li>
+				<li><a href="#projects">Projects</a></li>
+				<li><a href="#contact">Contact</a></li>
+
+			</ul>
+
+		</div>
+
+	</div>
+
+	<!--Mobile Social Media Navigation-->
+	<div class="dropdown">
+
+		<button class="dropbtn" onclick="myFunction2();" style="right: 0.3em;">Social</button>
+
+		<div class="dropdown-content" id="mob-nav2" style="right: 1.7em;">
+			
+			<ul>
+				
+				<!--Instagram-->
+				<li><a href="https://www.instagram.com/muhammmadarab" target="_blank"><img id="social-media2" src="img/ig.png"></a></li>
+
+				<!--Facebook-->
+				<li><a href="https://www.facebook.com/muhammmadarab" target="_blank"><img id="social-media2" src="img/fb.png"></a></li>
+
+				<!--Twitter-->
+				<li><a href="https://twitter.com/muhammmadarab" target="_blank"><img id="social-media2" src="img/twitter.png"></a></li>
+
+				<!--Linkedin-->
+				<li><a href="https://www.linkedin.com/in/muhammmadarab" target="_blank"><img id="social-media2" src="img/linkedin.png"></a></li>
+
+				<!--Github-->
+				<li><a href="https://github.com/coding-demon" target="_blank"><img id="social-media2" src="img/github.png"></a></li>
+
+				<!--youtube-->
+				<li><a onclick="sorry();"><img id="social-media2" src="img/youtube.png"></a></li>
+
+			</ul>
+
+		</div>
+
+	</div>
+
+	<!--Navigation Menu-->
+	<aside class="left-bar">
+
+		<a href="#top">Home</a>
+		<a href="#profile">Profile</a>
+		<a href="#abilities">Abilities</a>
+		<a href="#career">Career</a>
+		<a href="#projects">Projects</a>
+		<a href="#contact">Contact</a>
+
+	</aside>
+
+	<!--Social Media Navigation-->
+	<aside class="right-bar">
+
+		<!--Instagram-->
+		<a href="https://www.instagram.com/muhammmadarab" target="_blank"><img id="social-media" src="img/ig.png"></a>
+
+		<!--Facebook-->
+		<a href="https://www.facebook.com/muhammmadarab" target="_blank"><img id="social-media" src="img/fb.png"></a>
+
+		<!--Twitter-->
+		<a href="https://twitter.com/muhammmadarab" target="_blank"><img id="social-media" src="img/twitter.png"></a>
+
+		<!--Linkedin-->
+		<a href="https://www.linkedin.com/in/muhammmadarab" target="_blank"><img id="social-media" src="img/linkedin.png"></a>
+
+		<!--Github-->
+		<a href="https://github.com/coding-demon" target="_blank"><img id="social-media" src="img/github.png"></a>
+
+		<!--youtube-->
+		<a onclick="sorry();"><img id="social-media" src="img/youtube.png"></a>
+
+	</aside>
+
+	<!--Start Of the Site-->
+	<a name="top"></a>
+	<header>
+
+		<p>Last edited: July 05 2020 06:05pm</p>
+
+		<!--My Name-->
+		<h1>Muhammad Arab</h1>
+
+		<!--text-->
+		<h2>Web Designer/ Developer</h2>
+
+		<div class="countbar" style="margin-top: 22em;">
+			
+			<span class="float-left">
+
+				<p id="countbar-figure">1</p>
+				<p id="countbar-title">Projects</p>
+
+			</span>
+
+			<span class="float-left">
+
+				<p id="countbar-figure">2</p>
+				<p id="countbar-title">Crazy Ideas</p>
+
+			</span>
+
+			<span class="float-right">
+
+				<p id="countbar-figure">2</p>
+				<p id="countbar-title">Happy Clients</p>
+
+			</span>
+
+		</div>
+	
+	</header>
+
+	<!--Whole Contain of the Page-->
+	<div class="container">
+		
+		<!--Float Center-->
+		<div class="float-center">
+
+			<div id="odd-section">
+
+				<!--This is Profile Section-->
+				<a name="profile"></a>
+				<section id="profile">
+					
+					<!--Heading-->
+					<h2>My Profile</h2><br><br>
+
+					<!--Sub-text-->
+					<blockquote>I am a creative Web Designer</blockquote>
+
+					<br>
+					<hr>
+					<br>
+					<br>
+					<br>
+
+					<!--Left Side Content-->
+					<div class="about">
+						
+						<h3>About Me</h3>
+
+						<p>
+							
+							I have enough knowledge of Web Designing. I love spending time on fixing little details and optimizing my webpages. I like working alone and group too.
+
+						</p>
+
+					</div>
+
+					<!--Profile Photo-->
+					<div class="dp">
+						
+						<img id="my-dp" src="img/my.png">
+
+					</div>
+
+					<!--Right Side Content-->
+					<div class="details">
+						
+						<h3>Details</h3>
+
+						<p>
+							
+							<strong>Name:</strong><br>Muhammad Arab<br>
+							<strong>Age:</strong><br>18 years<br>
+							<strong>Location:</strong>&nbsp;<br>Mahisagar, Gujarat, India.<a href="https://www.google.com/maps/place/Mahisagar,+Gujarat/@23.1080637,73.7324579,9.15z/data=!4m5!3m4!1s0x3960afb257f367df:0x9e522a34997a6485!8m2!3d23.1711262!4d73.5594128"><i class="material-icons" style="font-size: 25px;">place</i></a><br>
+							<strong>Website:</strong><br>muhammadarab.com&nbsp;<a href="#top"><i class="material-icons">language</i></a><br>
+							<strong>Email:</strong><br>muhammadarab784@gmail.com&nbsp;<a href="mailto:muhammadarab784@gmail.com"><i class="material-icons">mail_outline</i></a><br>
+
+						</p>
+
+					</div>
+
+				</section>
+
+			</div>
+
+			<div id="even-section">
+
+				<!--This is Abilities Section-->
+				<a name="abilities"></a>
+				<section id="abilities">
+
+					<!--Heading-->
+					<h2>Abilities</h2>
+					<br><br>
+
+					<!--Sub-text-->
+					<blockquote>"We all have Abilities.The difference is that how we use it."<br>-Steive Wonder</blockquote>
+
+					<br>
+					<br>
+					<hr>
+
+					<div style="margin-top: 6em;">
+
+						<!--Skills-->
+						<div class="skills">
+
+							<h3>Skills</h3>
+
+							<ul>
+								
+								<li>
+
+									<span>Web Designing</span>
+									<span class="float-right">50%</span>
+
+								</li>
+
+								<li>
+
+									<span>Android Development</span>
+									<span class="float-right">20%</span>
+
+								</li>
+
+								<li>
+
+									<span>HTML</span>
+									<span class="float-right">70%</span>
+
+								</li>
+
+								<li>
+
+									<span>CSS</span>
+									<span class="float-right">65%</span>
+
+								</li>
+
+								<li>
+
+									<span>C</span>
+									<span class="float-right">40%</span>
+
+								</li>
+
+								<li>
+
+									<span>Python</span>
+									<span class="float-right">25%</span>
+
+								</li>
+
+								<li>
+
+									<span>Java</span>
+									<span class="float-right">5%</span>
+
+								</li>
+								
+							</ul>
+
+						</div>
+
+						<!--Tools-->
+						<div class="tools">
+
+							<h3>Tools/Softwares</h3>
+
+							<ul>
+							
+								<li>
+
+									<span>Windows</span>
+									<span class="float-right">Moderate</span>
+
+								</li>
+								
+								<li>
+
+									<span>Linux</span>
+									<span class="float-right">Beginner</span>
+
+								</li>
+
+								<li>
+
+									<span>Android Studio</span>
+									<span class="float-right">Moderate</span>
+
+								</li>
+
+								<li>
+
+									<span>Sketchup</span>
+									<span class="float-right">Moderate</span>
+
+								</li>
+
+								<li>
+
+									<span>Adobe Xd</span>
+									<span class="float-right">Moderate</span>
+
+								</li>
+
+							</ul>
+
+						</div>
+
+						<!--Languages-->
+						<div class="languages">
+
+							<h3>Languages</h3>
+
+							<ul>
+
+								<li>
+
+									<span>English</span>
+									<span class="float-right">Often Use</span>
+
+								</li>
+
+								<li>
+
+									<span>Urdu</span>
+									<span class="float-right">Mother-Tongue</span>
+
+								</li>
+								
+								<li>
+
+									<span>Hindi</span>
+									<span class="float-right">Daily Use</span>
+
+								</li>
+
+								<li>
+
+									<span>Gujarati</span>
+									<span class="float-right">Often Use</span>
+
+								</li>
+
+								<li>
+
+									<span>Marathi</span>
+									<span class="float-right">Understandable</span>
+
+								</li>
+
+								<li>
+
+									<span>Arabic</span>
+									<span class="float-right">Survival</span>
+
+								</li>
+
+							</ul>
+
+						</div>
+
+					</div>
+				
+				</section>
+
+			</div>
+
+			<div id="odd-section">
+
+				<!--This is Career Section-->
+				<a name="career"></a>
+				<section id="career">
+
+					<!--Heading-->
+					<h2>Career</h2>
+					<br><br>
+
+					<!--Sub-text-->
+					<blockquote>“Choose a job you love, and you will never have to work a day in your life."</blockquote>
+
+					<br>
+					<hr>
+					<br>
+
+					<!--Education-->
+					<div class="education">
+
+						<h3><u>Education</u></h3>
+
+						<!--University-->
+						<span class="c-title float-left">
+								
+							<h4>MIT-WPU&nbsp;<a href="https://www.mitwpu.edu.in"><i class="material-icons">language</i></a></h4>
+							<h6 id="year">2019-Present</h6>
+							<h6 id="location">Pune, Maharashtra.&nbsp;<a href="https://www.google.com/maps/d/u/0/viewer?ie=UTF8&hl=en&msa=0&ll=18.539512344416156%2C73.85868061376954&spn=0.31244%2C0.439453&z=12&source=embed&mid=17m_KKVif1gjXzJQWXutuXPfbawM"><i class="material-icons" style="font-size: 25px;">place</i></a></h6>
+
+						</span>
+
+						<span class="description float-right">
+							
+							<p>
+								
+								Nothing much...<br>
+								Just a First year CSE student.
+
+							</p>
+
+						</span>
+
+						<!--High School-->			
+						<span class="c-title float-left" style="clear: both;">
+								
+							<h4>Allen Careeer Institute&nbsp;<a href="https://www.allen.ac.in"><i class="material-icons">language</i></a></h4>
+							<h6 id="year">2017-2019</h6>
+							<h6 id="location">Ahmedabad, Gujarat.&nbsp;<a href="https://www.google.com/maps/d/u/0/viewer?ie=UTF8&t=m&oe=UTF8&msa=0&mid=15h5o9uaLz5Z1CLKb4oFgNtcVrUk&ll=23.043652468427975%2C72.63214652995258&z=11"><i class="material-icons" style="font-size: 25px;">place</i></a></h6>
+
+						</span>
+
+						<span class="description float-right">
+							
+							<p>
+								
+								Here I loved studying math, chemistry and physics.<br>
+								My faculties had encouraged me and helped me to work harder. Here I came to know what is Hard Work!
+
+							</p>
+
+						</span>
+							
+					</div>
+
+					<!--Job-->
+					<div class="job" style="clear: both;">
+
+						<h3><u>Jobs/Internships</u></h3>
+						
+						<p>
+							
+							Nothing to show here
+
+						</p>
+
+					</div>
+
+				</section>
+
+			</div>
+
+			<div id="even-section">
+
+				<!--This is Projects Section-->
+				<a name="projects"></a>
+				<section id="projects">
+
+					<!--Heading-->
+					<h2>Projects</h2>
+					<br><br>
+
+					<!--Sub-text-->
+					<blockquote>“The key to successful leadership today is influence not authority.”<br>– Kenneth Blanchard.</blockquote>
+					<br><br>
+
+					<hr>
+					<br>
+
+					<p>Coming Soon</p>
+
+				</section>
+
+			</div>
+
+			<div id="contact-section">
+
+				<!--This is Contact Section-->
+				<a name="contact"></a>
+				<section id="contact">
+
+					<!--Heading-->
+					<h2>Get In Touch</h2><br><br>
+
+					<blockquote>Drop a message if you want to talk over coffee also.</blockquote><br><hr><br>
+
+					<h4>Fields mark with &ast; are compulsary | Enter Mobile Number without zero and country code</h4>
+					
+					<form action="send.php" method="POST">
+						
+						<!--Name Section-->
+						<input name="name" type="text" class="c-input" placeholder="Name*" maxlength="26" minlength="3" required>
+						<br>
+
+						<!--Email Section-->
+						<input name="email" type="Email" class="c-input" placeholder="Email*" maxlength="40" minlength="10" required>
+						<br>
+
+						<!--Mobile Number Section-->
+						<input name="number" type="tel" class="c-input" placeholder="Mobile Number*" pattern="[0-9]{10}" maxlength="10" minlength="10" required>
+						<br>
+
+						<!--Subject Section-->
+						<input name="subject" type="text" class="c-input" placeholder="Subject" maxlength="20">
+						<br>
+
+						<!--Message Section-->
+						<textarea name="message" type="text" class="c-input" rows="8;" placeholder="Message for Me*" minlength="7" maxlength="250" required></textarea>
+						<br>
+
+						<!--Captcha Code-->
+						
+
+						<!--Submit Button-->
+						<input type="submit" class="submit" value="Send">
+
+						<!--clear Button-->
+						<input type="reset" class="submit" value="Clear Form">
+
+					</form>
+
+				</section>
+
+			</div>
+
+		</div>
+
+		<!--Footer-->
+		<footer id="footer">&copy; Copyright Muhammad Arab 2020 | Designed by <a href="https://www.instagram.com/muhammmadarab/?hl=en">Muhammad Arab</a></footer>
+
+	</div>
+
+</body>
+
+</html>

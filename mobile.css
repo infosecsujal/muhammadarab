@@ -1,0 +1,492 @@
+/*PreLoader CSS*/
+.no-js #loader { display: none;}
+
+.js #loader
+	{	display: block;
+		position: absolute; 
+		top: 0;
+	}
+
+.se-pre-con
+{
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url(img/preLoader.gif) center no-repeat #fff;
+}
+
+/*Whole Body*/
+html
+{
+	scroll-behavior: smooth;
+}
+
+body
+{
+	background-color: white;
+	color: darkgrey;
+	text-align: center;
+	margin: 0 auto;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 1.1em;
+}
+
+#odd-section
+{
+	background-color: #f7f7f9;
+}
+
+#even-section
+{
+	background-color: #feffbf;
+}
+
+h1
+{
+	color: #d2302c;
+}
+
+h2
+{
+	font-size: 2.2em;
+	color: #d2302c;
+}
+
+h3
+{
+	font-size: 1.5em;
+	color: #d2302c;
+}
+
+a
+{
+	text-decoration: none;
+	color: darkgrey;
+}
+
+a:hover
+{
+	color: #d2302c;
+}
+
+a:active
+{
+	color: blue;
+}
+
+.float-left
+{
+	float: left;
+}
+
+.float-right
+{
+	float: right;
+}
+
+/*Common General CSS*/
+section
+{
+	margin-left: 2.5em;
+	margin-right: 2.5em;
+}
+
+section blockquote
+{
+	margin-top: 2.5em;
+	position: absolute;
+	left: 0;
+	right: 0;
+}
+
+section hr
+{
+	margin-top: 3.8em;
+	position: absolute;
+	left: 2em;
+	right: 2em;
+	width: auto;
+}
+
+.material-icons
+{
+	color: black;
+	font-size: 1px;
+}
+
+.material-icons:hover {color: #d2302c;}
+.material-icons:active {color: blue;}
+
+ul
+{
+	list-style: none;
+	padding-left: 0;
+}	
+
+/*Navigation Bar*/
+aside
+{
+	display: none;
+}
+
+.dropdown-content
+{
+	display: none;
+	position: fixed;
+	margin-top: 1.5em;
+	box-sizing: border-box;
+	z-index: 1;
+}
+
+.dropdown-content a
+{			
+	color: white;
+	background-color: black;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 10px;
+	display: block;
+}
+
+.dropbtn
+{
+	color: #f7f7f9;
+	background-color: black;
+	font-weight: bold;
+	border: none;
+	width: 110px;
+	padding: 8px;
+	position: fixed;
+	margin-top: 0;
+	z-index: 1;
+	outline: none;
+	cursor: pointer;
+}
+
+.dropdown-content a:hover {background-color: #f7f7f9; color: #d2302c}
+
+.dropdown:hover .dropbtn {background-color: black; color:#d2302c;}
+
+.dropdown-content a:active {background-color: #d2302c; color: #f7f7f9;}
+
+/*Social Media Icons*/
+#social-media2
+{
+	width: 2em;
+	height: 2em;
+	border-radius: 50%;
+}
+
+/*Start of the page*/
+header
+{
+	height: 660px;
+	margin-top: 0;
+	image-rendering: auto;
+	background-image: url(img/back.jpg);
+	background-position: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+header>p
+{
+	position: absolute;
+	left: 1em;
+	color: white;
+	font-size: 0.7em;
+	margin-top: 5em;
+}
+
+header h1, h2
+{
+    position: absolute;
+    left: 0;
+    right: 0;
+    min-width: 250px;
+}
+
+header h1
+{
+	font-size: 3em;
+    margin-top: 4em;
+    font-family: 'Dancing Script', cursive;
+}
+
+header h2
+{
+	font-size: 1.5em;
+    margin-top: 11em;
+    font-family: 'Kalam', cursive;
+    color: #f7f7f9;
+}
+
+.countbar
+{
+	color: #d2302c;
+	font-size: 1em;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	width: 360px;
+	box-sizing: border-box;
+	font-style: italic;
+}
+
+.countbar span
+{
+	width: 120px;
+}
+
+#countbar-figure
+{	
+	color: grey;
+	background-color: white;
+	border: 4px solid darkgrey;
+	border-radius: 50%;
+	height: 1em;
+	width: 1em;	
+	padding: 1em;
+	position: relative;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+}
+
+/*Profile section*/
+section#profile{height: 1000px;}
+
+.about, .details
+{	
+	text-align: left;
+	float: none;
+	clear: both;
+}
+
+section#profile div
+{	
+	display: block;
+	width: 200px;;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+
+section#profile strong {color: black;}
+
+#my-dp
+{	
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	border: 10px solid darkgrey;
+	box-sizing: border-box;	 
+}
+
+/*Abilities Section*/
+section#abilities{height: 800px;}
+
+.skills, .tools, .languages
+{
+	height: auto;
+	box-sizing: border-box;
+	text-align: left;
+	font-size: 1em;
+	clear: all;
+	display: block;
+	vertical-align: top;
+}
+
+section#abilities div ul li {color: black;}
+
+section#abilities div ul li .float-right {color: darkgrey;}
+
+/*Career Section*/
+section#career{height: 860px;}
+
+section#career h3
+{
+	text-align: center;	
+}
+
+section#career hr
+{
+	margin-top: 5em;
+}
+
+.c-title h4, .description h4
+{
+	color: black;
+}
+
+.c-title, .description
+{
+	margin-left: 10px;
+	margin-right: 10px;
+	box-sizing: border-box;
+	text-align: left;
+	font-size: 1em;
+	clear: all;
+	width: 280px;
+	display: inline-block;
+	float: none;
+}
+
+#year
+{
+	margin-top: -1.5em;
+}
+
+#location
+{
+	margin-top: -4.9em;
+	margin-left: 10em;
+}
+
+.education
+{
+	margin-top: 5.5em;
+}
+
+.job p
+{
+	top: 1em;
+	position: relative;
+	font-size: 1.3em;
+}
+
+/*Project Section*/
+section#projects{height: 340px;}
+
+section#projects hr
+{
+	margin-top: 4.5em;
+}
+
+#projects p
+{
+	margin-top: 3.5em;
+	font-size: 2em;
+	color: #d2302c;
+}
+
+/*Contact Section*/
+section#contact{height: 660px;}
+
+#contact-section
+{
+	background-color: black;
+}
+
+section#contact h4
+{
+	position: absolute;
+	left: 0;
+	right:0;
+	margin-top: 6.8em;
+	font-size: 0.5em;
+	font-weight: normal;
+	color: red;
+}
+
+section#contact form
+{
+	position: absolute;
+	left: 1em;
+	right: 2em;
+	margin-top: 5em;
+}
+
+.c-input
+{
+	color: white;
+	background-color: transparent;
+	width: 280px;
+	padding: .5em;
+	margin: .5em;
+	border-style: none;
+	border-bottom: 0.5px solid darkgrey;
+	padding-bottom: ;
+	resize: none;
+	outline: none;
+}
+
+.submit
+{
+	width: 120px;
+	margin-left: 10px;
+	font-weight: bold;
+	background-color: #d2302c;
+	color: white;
+	padding: .5em;
+	box-sizing: border-box;
+	border: none;
+	outline: none;
+}
+
+.submit:active
+{
+	background-color: white;
+	color: #d2302c;
+}
+
+/*Footer*/
+footer
+{
+	line-height: 3em;
+	background-color: black;
+	color: darkgrey;
+	font-size: .6em;
+}
+
+footer a{color: white;}
+
+
+@media only screen and (min-width: 721px;) and (max-width: 960px;)
+{
+	.about, .details, .dp
+	{
+		display: inline-block !important;
+		box-sizing: border-box;
+		width: 160px;
+		vertical-align: top;
+		margin-top: 5em !important;
+	}
+
+	.dp
+	{
+		margin-right: 20px !important;
+	}
+
+	#my-dp
+	{
+		width: 200px;
+		height: 200px;
+		border-radius: 50%;
+		border: 10px solid darkgrey;
+		box-sizing: border-box;
+	}
+}
+
+@media only screen and (min-width: 250px;) and (max-width: 361px;)
+{	
+	#odd-section, #even-section
+	{
+		width: 280px;
+	}
+
+	.dropbtn
+	{
+		display: none !important;
+	}
+
+	#mob-nav2
+	{
+		right: 3.7em !important;
+	}
+
+}

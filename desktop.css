@@ -1,0 +1,501 @@
+/*PreLoader CSS*/
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con
+{
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url(img/preloader.gif) center no-repeat #fff;
+}
+
+/*Whole Body*/
+html
+{
+	scroll-behavior: smooth;
+}
+
+body
+{
+	background-color: white;
+	color: darkgrey;
+	text-align: center;
+	margin: 0 auto;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+#odd-section
+{
+	background-color: #f7f7f9;
+}
+
+#even-section
+{
+	background-color: #feffbf;
+}
+
+h1
+{
+	color: #d2302c;
+}
+
+h2
+{
+	font-size: 3em;
+	color: #d2302c;
+}
+
+h3
+{
+	font-size: 1.5em;
+	color: #d2302c;
+}
+
+a
+{
+	text-decoration: none;
+	color: darkgrey;
+}
+
+a:hover
+{
+	color: #d2302c;
+}
+
+a:active
+{
+	color: blue;
+}
+
+.float-left
+{
+	float: left;
+}
+
+.float-right
+{
+	float: right;
+}
+
+/*Common General CSS*/
+section
+{
+	width: auto;
+	max-width: 960px;
+	margin: 0 auto;
+	height: 660px;
+}
+
+section#career {height: 960px;}
+
+section#abilities, section#projects {height: 460px;}
+
+section blockquote
+{
+	margin-top: 5em;
+	position: absolute;
+	left: 0;
+	right: 0;
+}
+
+section hr
+{
+	margin-top: 6em;
+	position: absolute;
+	left: 3em;
+	right: 3em;
+	width: auto;
+	max-width: 950px;
+}
+
+.material-icons
+{
+	color: black;
+}
+
+.material-icons:hover {color: #d2302c;}
+.material-icons:active {color: blue;}
+
+ul
+{
+	list-style: none;
+	padding: 0;
+}
+
+/*Both Sidebar Navigation CSS*/
+aside a
+{
+	padding: 6px;	
+	display: block;
+	color: white;
+	text-decoration: none;
+	background-color: black;
+}
+
+aside a:hover
+{
+	background-color: #f7f7f9;
+}
+
+aside a:active
+{
+	background-color: #d2302c;
+	color: white;
+}
+
+/*Sidebar Float CSS*/
+.left-bar, .right-bar
+{
+	overflow-x: hidden; /* Disable horizontal scroll */
+	position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+	z-index: 1; /* Stay on top */
+	background-color: transparent;
+	padding: 12px;
+	border-radius: 3%;
+
+}
+
+.left-bar
+{
+	float: left;
+	height: 12em;
+	top: 14em; /* Stay at the top */
+	left: 1em;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+.right-bar
+{
+	float: right;
+	height: 27em; 
+	top: 11.5em; /* Stay at the top */
+	right: 1em;
+	
+}
+
+/*Social Media Icons*/
+#social-media
+{
+	width: 3em;
+	height: 3em;
+	border-radius: 50%;
+}
+
+/*Start of the page*/
+header
+{
+	height: 760px;
+	margin-top: 0;
+	image-rendering: auto;
+	background-image: url(img/back.jpg);
+	background-position: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+header>p
+{
+	position: absolute;
+	left: 1em;
+	color: white;
+	font-size: 1em;
+	margin-top: 2em;
+}
+
+header h1, h2
+{
+    position: absolute;
+    left: 0;
+    right: 0;
+    min-width: 610px;
+}
+
+header h1
+{
+	font-size: 5.5em;
+    margin-top: 4em;
+    font-family: 'Dancing Script', cursive;
+}
+
+header h2
+{
+	font-size: 2.5em;
+    margin-top: 11.5em;
+    font-family: 'Kalam', cursive;
+    color: #f7f7f9;
+}
+
+.countbar
+{
+	color: #d2302c;
+	font-size: 1.5em;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	width: 486px;
+	box-sizing: border-box;
+	font-style: italic;
+}
+
+.countbar span
+{
+	width: 160px;
+}
+
+#countbar-figure
+{	
+	color: grey;
+	background-color: white;
+	border: 4px solid darkgrey;
+	border-radius: 50%;
+	height: 1em;
+	width: 1em;	
+	padding: 1em;
+	position: relative;
+	margin: 0 auto;
+	top: 12px;
+	left: 0;
+	right: 0;
+}
+
+/*Profile section*/
+.about, .details, .dp
+{	
+	margin-top: 5em;
+	box-sizing: border-box;
+	width: 300px;
+	font-size: 1.3em;
+	text-align: left;
+	float: left;
+	display: inline-block;
+}
+.about
+{
+	margin-right: 20px;
+}
+
+.details
+{
+	float: right;
+	width: 334px;
+}
+
+section#profile strong{color: black;}
+
+#my-dp
+{
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	border: 8px solid darkgrey;
+	box-sizing: border-box;	
+}
+
+/*Abilities Section*/
+.skills, .tools, .languages
+{
+	width: 280px;
+	height: 280px;
+	margin-left: 15px;
+	margin-right: 15px;
+	box-sizing: border-box;
+	text-align: left;
+	font-size: 1.2em;
+	clear: all;
+	display: inline-block;
+	vertical-align: top;
+}
+
+section#abilities div ul li {color: black;}
+
+section#abilities div ul li .float-right {color: darkgrey;}
+
+/*Career Section*/
+section#career h3
+{
+	font-size: 2em;
+	text-align: left;	
+}
+
+.c-title h4, .description h4
+{
+	color: black;
+}
+
+.c-title, .description
+{
+	width: 440px;
+	margin-left: 20px;
+	margin-right: 20px;
+	box-sizing: border-box;
+	text-align: left;
+	font-size: 1.3em;
+	clear: all;
+}
+
+.education
+{
+	margin-top: 7em;
+}
+
+.job
+{
+	margin-top: em;
+}
+
+.job p
+{
+	font-size: 2.5em;
+	padding: 1em;
+}
+
+/*Project Section*/
+#projects p
+{
+	margin-top: 2.5em;
+	font-size: 4em;
+	color: #d2302c;
+}
+
+/*Contact Section*/
+#contact-section
+{
+	background-color: black;
+}
+
+section#contact h4
+{
+	position: absolute;
+	left: 0;
+	right:0;
+	margin-top: 5.5em;
+	font-weight: normal;
+	color: red;
+}
+
+section#contact form
+{
+	position: absolute;
+	left: 0;
+	right:0;
+	margin-top: 8em;
+}
+
+.c-input
+{
+	color: white;
+	background-color: transparent;
+	width: 330px;
+	padding: .5em;
+	margin: .5em;
+	border-style: none;
+	border-bottom-style: solid;
+	padding-bottom: ;
+	resize: none;
+	outline: none;
+}
+
+.submit
+{
+	width: 165px;
+	font-weight: bold;
+	background-color: #d2302c;
+	color: white;
+	padding: .5em;
+	box-sizing: border-box;
+	border: none;
+	outline: none;
+}
+
+.submit:hover
+{
+	background-color: #f7f7f9;
+	color: #d2302c;
+	cursor: pointer;
+}
+
+.submit:active
+{
+	color: white;
+	background-color: #d2302c;
+}
+
+/*Footer*/
+footer
+{
+	line-height: 5em;
+	background-color: black;
+	color: darkgrey;
+}
+
+footer a{color: white;}
+
+@media only screen and (min-width: 960px) and (max-width: 1100px)
+{
+	/*Navigation Bar*/
+	aside
+	{
+		display: none;
+	}
+
+	.dropdown-content
+	{
+		display: none;
+		position: fixed;
+		margin-top: 1.5em;
+		box-sizing: border-box;
+		z-index: 1;
+	}
+
+	.dropdown-content a
+	{			
+		color: white;
+		background-color: black;
+		text-decoration: none;
+		font-weight: bold;
+		padding: 10px;
+		display: block;
+	}
+
+	.dropbtn
+	{
+		color: #f7f7f9;
+		background-color: black;
+		font-weight: bold;
+		border: none;
+		width: 110px;
+		padding: 8px;
+		position: fixed;
+		margin-top: 0;
+		z-index: 1;
+		outline: none;
+		cursor: pointer;
+	}
+
+	.dropdown-content a:hover {background-color: #f7f7f9; color: #d2302c}
+
+	.dropdown:hover .dropbtn {background-color: black; color:#d2302c;}
+
+	.dropdown-content a:active {background-color: #d2302c; color: #f7f7f9;}
+
+	/*Social Media Icons*/
+	#social-media2
+	{
+		width: 2em;
+		height: 2em;
+		border-radius: 50%;
+	}
+}
+
+@media only screen and (min-width: 1100px)
+{
+	.dropdown
+	{
+		display: none;
+	}
+}
